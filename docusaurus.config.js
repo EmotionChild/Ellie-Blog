@@ -22,12 +22,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/EmotionChild/Ellie-Blog/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
@@ -53,7 +50,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/EmotionChild/Ellie-Blog',
             label: 'GitHub',
@@ -68,8 +64,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentation Site',
+                to: 'https://docs.emotionchild.com',
               },
             ],
           },
@@ -90,17 +86,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/EmotionChild/Ellie-Blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} EmotionChild. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} EmotionChild.`,
       },
       prism: {
         theme: lightCodeTheme,
