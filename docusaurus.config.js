@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'EmotionChild', // Usually your GitHub org/user name.
   projectName: 'Ellie-Blog', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
