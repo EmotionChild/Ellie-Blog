@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelliedocs_beta=self.webpackChunkelliedocs_beta||[]).push([[419],{3995:function(e){e.exports=JSON.parse('{"allTagsPath":"/tags","slug":"/tags/hello","name":"hello","count":1,"permalink":"/tags/hello"}')}}]);

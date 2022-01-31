@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelliedocs_beta=self.webpackChunkelliedocs_beta||[]).push([[991],{3885:function(e){e.exports=JSON.parse('{"permalink":"/","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Here you can find blog posts about Ellie and other things we are up to","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.emotionchild.com/</id>
+    <title>Ellie Blog Blog</title>
+    <updated>2022-01-31T08:02:54.733Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.emotionchild.com/"/>
+    <subtitle>Ellie Blog Blog</subtitle>
+    <icon>https://blog.emotionchild.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://blog.emotionchild.com/welcome"/>
+        <updated>2022-01-31T08:02:54.733Z</updated>
+        <summary type="html"><![CDATA[Welcome to our blog here you can find out dev blogs]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to our blog here you can find out dev blogs</p><p>Thanks for reading!
+EmotionChild</p>]]></content>
+        <author>
+            <name>EmotionChild</name>
+            <uri>https://www.emotionchild.com</uri>
+        </author>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
