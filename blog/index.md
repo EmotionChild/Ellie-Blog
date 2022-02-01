@@ -5,7 +5,7 @@ authors: [EmotionChild]
 tags: [welcome]
 ---
 
-Welcome to our blog here you can find our dev blogs and possibly patch notes in the future
+Welcome to our blog here you can find our devlogs and possibly Ellie patch notes in the future
 
 Thanks for reading!
 EmotionChild
