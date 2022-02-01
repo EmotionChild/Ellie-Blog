@@ -1,8 +1,8 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome to our blog
 authors: [EmotionChild]
-tags: [hello]
+tags: [welcome]
 ---
 
 Welcome to our blog here you can find out dev blogs
