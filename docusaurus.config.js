@@ -26,11 +26,18 @@ const config = {
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            frontMatter.hide_reading_time ? undefined : defaultReadingTime({content}),
           // Please change this to your repo.
           editUrl:
             'https://github.com/EmotionChild/Ellie-Blog/tree/main/packages/create-docusaurus/templates/shared/',
+          blogTitle: 'Ellie Blog',
           blogDescription: 'Here you can find blog posts about Ellie and other things we are up to',
           postsPerPage: 'ALL',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} EmotionChild.`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
