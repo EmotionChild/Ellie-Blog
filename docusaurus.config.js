@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ellie Blog',
   tagline: 'Here you can find blog posts about Ellie and other things we are up to',
-  url: 'https://blog.emotionchild.com',
+  url: 'https://blog.elliebot.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Documentation Site',
-                to: 'https://docs.emotionchild.com',
+                to: 'https://docs.elliebot.net',
               },
             ],
           },
