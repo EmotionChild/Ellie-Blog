@@ -1,5 +1,5 @@
 ---
-slug: update-on-things
+slug: small-update-on-things
 title: Update on Stuff
 authors: [EmotionChild]
 tags: [Devlog]
