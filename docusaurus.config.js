@@ -30,13 +30,13 @@ const config = {
             frontMatter.hide_reading_time ? undefined : defaultReadingTime({content}),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/EmotionChild/Ellie-Blog/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/EmotionChild/Ellie-Blog/tree/dev/blog',
           blogTitle: 'Ellie Blog',
           blogDescription: 'Here you can find blog posts about Ellie and other things we are up to',
           postsPerPage: 'ALL',
           feedOptions: {
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} EmotionChild.`,
+            copyright: `Copyright © ${new Date().getFullYear()} EllieBotDevs.`,
           },
         },
         theme: {
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/SVQVzJq',
+                href: 'https://discord.com/invite/SVQVzJq',
               },
               {
                 label: 'Twitter',
@@ -98,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} EmotionChild.`,
+        copyright: `Copyright © ${new Date().getFullYear()} EllieBotDevs.`,
       },
       prism: {
         theme: lightCodeTheme,
